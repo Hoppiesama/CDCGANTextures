@@ -11,4 +11,11 @@ This project requires alot of disk space. It outputs lots of images during the t
 
 Once you are happy with the images generated, grab the appropriate "Generator" file ( .h5 format ) and put it in the active generator folder. This will then allow you to use that generator next time you run the application and simply output 4 images of the type specified.
 
-Special thanks to Tom Bashford-Rogers for pushing me to do this work during my degree. Was like banging my face against a wall until it broke.
+
+**Also important!**
+
+You need CUDA, CUDNN, Python3, Tensorflow-gpu, Keras, Matplotlib. I think that's all of them! I dont think tensorflow works with the newer CUDNN and CUDA, so follow the tensorflow gpu stuff on their website : https://www.tensorflow.org/install/gpu.
+Pay particular attention to the VERSION NUMBERS on the software part.
+
+Special thanks to Tom Bashford-Rogers for pushing me to do this work during my degree. 
+Also more thanks to people who have public repos of similar projects, it was super helpful in learning about this crazy magic deep learning business.
